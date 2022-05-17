@@ -6,5 +6,6 @@ func ReverseString(input string) (output string) {
 		runes[i], runes[j] = runes[j], runes[i]
 	}
 	output = string(runes)
+
 	return output
 }
